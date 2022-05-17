@@ -1,0 +1,79 @@
+:root
+{
+    --color1: #fff8eb;
+    --color2: #8f003e;
+    --color3: #042b4e;
+    --color4: #0093a3;
+}
+
+body
+{
+    color: var(--color3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header
+{
+    padding: 20px 35px;
+    background-color: var(--color4);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header nav
+{
+    margin: 2px 0;
+}
+
+header h1
+{
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color2);
+    margin: 0;
+}
+
+header nav ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li a
+{
+    padding: 0px 25px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.about-me
+{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me img
+{
+    flex: 1 1%;
+    max-width: 17%;
+    float: left;
+    margin: 0 5px;
+}
+
+.bio p
+{
+    text-align: left;
+}
